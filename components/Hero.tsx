@@ -39,17 +39,7 @@ export const Hero = () => {
         lineHeight="shorter"
         mb={5}
       >
-        Open source Dapp template for the{' '}
-        <Text
-          as="a"
-          color="elvenTools.color3.base"
-          href="https://www.elven.tools"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Elven Tools
-        </Text>{' '}
-        and{' '}
+        Join the digital Tribe in the {' '}
         <Text
           as="a"
           color="elvenTools.color2.base"
@@ -59,7 +49,7 @@ export const Hero = () => {
         >
           MultiversX
         </Text>{' '}
-        blockchain.
+        ecosystem.
       </Text>
       <Text
         as="h2"
@@ -67,14 +57,9 @@ export const Hero = () => {
         fontWeight="thin"
         textAlign={{ base: 'center', md: 'left' }}
       >
-        The actual working example is connected to the Elven Tools smart
-        contract deployed on the MultiversX blockchain{' '}
-        <Text as="span" fontWeight="medium">
-          devnet
-        </Text>
-        ! You can play with it. I will redeploy it from time to time to keep the
-        minting active. You can also use the template on the mainnet with a
-        couple of config changes. Check the Elven Tools website for docs.
+        Vibe tribes are digital nomads that were born on MultiversX{' '}
+        Minting is just 0.1 EGLD. There will be a lot of features for this nomads like
+        a DAO, VIBE ESDT rewards and a multiverse game.
       </Text>
       <Box
         display="flex"
@@ -91,9 +76,8 @@ export const Hero = () => {
           content={collectionTicker || '-'}
           label="Collection ticker. Click for details."
           isLoading={collectionTickerLoading}
-          href={`${
-            getActiveNetworkConfiguration().explorerAddress
-          }/collections/${collectionTicker}`}
+          href={`${getActiveNetworkConfiguration().explorerAddress
+            }/collections/${collectionTicker}`}
         />
         <CollectionInfoBox
           content={
@@ -104,9 +88,8 @@ export const Hero = () => {
           label={`Minter smart contract. Click for details.`}
           href={
             smartContractAddress
-              ? `${
-                  getActiveNetworkConfiguration().explorerAddress
-                }/accounts/${smartContractAddress}`
+              ? `${getActiveNetworkConfiguration().explorerAddress
+              }/accounts/${smartContractAddress}`
               : undefined
           }
         />

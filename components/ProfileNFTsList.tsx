@@ -71,9 +71,8 @@ export const ProfileNFTsList = () => {
                 <NftImageHelper
                   thumbnail={nft.media?.[0].thumbnailUrl}
                   multiversxIPFSGatewayUrl={nft.url}
-                  href={`${
-                    getActiveNetworkConfiguration().explorerAddress
-                  }/nfts/${nft.identifier}`}
+                  href={`${getActiveNetworkConfiguration().explorerAddress
+                    }/nfts/${nft.identifier}`}
                 />
               </Stack>
               <Box
@@ -83,9 +82,8 @@ export const ProfileNFTsList = () => {
                 textAlign="center"
               >
                 <a
-                  href={`${
-                    getActiveNetworkConfiguration().explorerAddress
-                  }/nfts/${nft.identifier}`}
+                  href={`${getActiveNetworkConfiguration().explorerAddress
+                    }/nfts/${nft.identifier}`}
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -94,9 +92,8 @@ export const ProfileNFTsList = () => {
               </Box>
               <Box color="elvenTools.white" textAlign="center">
                 <a
-                  href={`${
-                    getActiveNetworkConfiguration().explorerAddress
-                  }/nfts/${nft.identifier}`}
+                  href={`${getActiveNetworkConfiguration().explorerAddress
+                    }/nfts/${nft.identifier}`}
                   rel="noopener noreferrer"
                   target="_blank"
                 >

@@ -9,7 +9,7 @@ export const dappHostname = process.env.NEXT_PUBLIC_DAPP_HOST;
 export const defaultMetaTags = {
   title: 'Elven Tools NFT minter dapp demo - MultiversX blockchain',
   description:
-    'Open source Dapp template for the Elven Tools and MultiversX blockchain. The actual working example is connected to the Elven Tools smart contract deployed on the MultiversX blockchain devnet!',
+    'Vibe Tribes',
   image: `${dappHostname}/og-image.png`,
 };
 
@@ -30,12 +30,7 @@ export const faq = [
       'Why knowing the collection ticker and minter smart contract is essential?',
     answer:
       'It is crucial because these two prove that the NFTs come from a verified source. The NFT project should always show the collection ticker and minter smart contract to gain trust.',
-  },
-  {
-    question: 'What is Elven Tools?',
-    answer:
-      'The Elven Tools is an open-source toolset including the CLI tool, Smart Contract for handling the NFT collections, and this dapp template. You can, of course, use each tool separately. But the CLI helps with smart contract deployments and the setup process. You can also interact with the smart contract using the CLI or even use it as a buyer.',
-  },
+  }
 ];
 
 // Roadmap section data

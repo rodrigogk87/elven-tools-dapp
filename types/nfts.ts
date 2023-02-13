@@ -10,4 +10,5 @@ export interface NFT {
     url: string;
   }[];
   url: string;
+  uris: string[];
 }

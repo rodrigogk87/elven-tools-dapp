@@ -208,10 +208,7 @@ export const MintHero = () => {
         fontWeight="thin"
         textAlign={{ base: 'center', md: 'left' }}
       >
-        To be able to mint you have to be logged in to be able to mint. Remember
-        that it will mint only on the devent. If you want to do that, you need
-        to connect using one of the methods and the devnet address with some
-        xEGLD funds.
+        To be able to mint you have to be logged in to be able to mint and have at least 0.1 EGLD.
       </Text>
       {!mintingPaused ? (
         <Box mt={6}>
@@ -242,8 +239,8 @@ export const MintHero = () => {
                 dataLoading={mintedDataLoading}
               />
               {!isLoadingTokensLimitPerAddressTotal &&
-              !tokensLimitPerAddressPerDropLoading &&
-              !Number.isNaN(tokensLeftPerUser) ? (
+                !tokensLimitPerAddressPerDropLoading &&
+                !Number.isNaN(tokensLeftPerUser) ? (
                 <>
                   <NFTLeftToMintPerAddress
                     leftToMintForUser={tokensLeftPerUser}

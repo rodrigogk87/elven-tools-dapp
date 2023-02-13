@@ -6,14 +6,12 @@ import { Hero } from '../components/Hero';
 import { HeaderMenuButtons } from '../components/HeaderMenuButtons';
 import { HeroImage } from '../components/HeroImage';
 import { Faq } from '../components/Faq';
-import { Roadmap } from '../components/Roadmap';
-import { Team } from '../components/Team';
 
 const Home: NextPage = () => {
   return (
     <MainLayout>
       <HeaderMenu>
-        <HeaderMenuButtons enabled={['auth', 'mint', 'about']} />
+        <HeaderMenuButtons enabled={['auth', 'mint']} />
       </HeaderMenu>
       <Box
         display="flex"
@@ -24,8 +22,6 @@ const Home: NextPage = () => {
         <HeroImage />
       </Box>
       <Faq />
-      <Roadmap />
-      <Team />
     </MainLayout>
   );
 };
