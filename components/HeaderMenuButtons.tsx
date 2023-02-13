@@ -33,8 +33,6 @@ export const HeaderMenuButtons: FC<HeaderMenuButtonsProps> = ({ enabled }) => {
         </Link>
       )}
 
-      <SocialMediaIcons />
-
       <UserAvatar />
 
       {enabled.includes('mint') && (

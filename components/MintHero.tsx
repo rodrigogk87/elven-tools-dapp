@@ -191,7 +191,7 @@ export const MintHero = () => {
   const tokensLeftPerUser = getLeftToMintForUser();
 
   return (
-    <Box width="100%">
+    <Box width="100%" display="block">
       <Text
         as="h1"
         fontSize={{ base: '2xl', md: '3xl', lg: '5xl' }}

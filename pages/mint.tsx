@@ -13,12 +13,12 @@ const Mint: NextPage = () => {
         <HeaderMenuButtons enabled={['auth']} />
       </HeaderMenu>
       <Box
-        display="flex"
-        justifyContent="space-between"
+        display="block"
+        textAlign="center"
         mt={{ base: 8, xl: 12, '2xl': 24 }}
       >
-        <MintHero />
         <HeroImage />
+        <MintHero />
       </Box>
     </MainLayout>
   );

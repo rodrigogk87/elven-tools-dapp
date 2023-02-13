@@ -5,25 +5,15 @@ export const HeroImage = () => {
     <Box
       minWidth="400px"
       height="400px"
-      display="flex"
-      justifyContent="flex-end"
-      sx={{
-        '@media screen and (max-width: 1000px)': {
-          display: 'none',
-        },
-      }}
+      display="block"
     >
       <Box
         padding={10}
-        bgColor="elvenTools.dark.darker"
-        borderRadius="2xl"
         userSelect="none"
-        boxShadow="0 0 25px"
         color="elvenTools.shadowColor"
-        display="flex"
-        bgGradient="linear-gradient(90deg, elvenTools.dark.base 0%, elvenTools.dark.darker 70%);"
+        display="block"
       >
-        <Box as="img" src="/img.gif" alt="" width="300px" height="300px" />
+        <Box as="img" src="/img.gif" alt="" height="300px" display="block" marginLeft="auto" marginRight="auto" width="300px"></Box>
       </Box>
     </Box>
   );
