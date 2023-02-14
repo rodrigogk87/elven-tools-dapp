@@ -16,7 +16,6 @@ const Home: NextPage = () => {
       <Box
         display="block"
         textAlign="center"
-        mt={{ base: 8, xl: 12, '2xl': 24 }}
       >
         <HeroImage />
         <Hero />

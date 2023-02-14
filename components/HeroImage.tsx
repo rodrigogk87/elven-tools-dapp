@@ -3,8 +3,8 @@ import { Box } from '@chakra-ui/react';
 export const HeroImage = () => {
   return (
     <Box
-      minWidth="400px"
-      height="400px"
+      minWidth="100%"
+      height="100%"
       display="block"
     >
       <Box
