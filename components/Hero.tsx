@@ -69,7 +69,7 @@ export const Hero = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Go to XOXNO Collection
+        XOXNO Collection
       </Text>
 
       <hr />
@@ -80,7 +80,7 @@ export const Hero = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Go to VIBE DAO
+        VIBE DAO
       </Text>
       <hr />
 
