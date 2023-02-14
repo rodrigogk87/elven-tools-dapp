@@ -7,7 +7,7 @@ export const dappHostname = process.env.NEXT_PUBLIC_DAPP_HOST;
 
 // HTML metata and og tags, default values for MetaHead.tsx component
 export const defaultMetaTags = {
-  title: 'Elven Tools NFT minter dapp demo - MultiversX blockchain',
+  title: 'Vibe Tribes - MultiversX blockchain',
   description:
     'Vibe Tribes',
   image: `${dappHostname}/og-image.png`,
