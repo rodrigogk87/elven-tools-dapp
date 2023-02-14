@@ -28,7 +28,6 @@ export const Hero = () => {
 
   const minted =
     collectionSize && totalTokensLeft ? collectionSize - totalTokensLeft : 0;
-
   return (
     <Box width="100%">
       <Text
@@ -39,7 +38,9 @@ export const Hero = () => {
         lineHeight="shorter"
         mb={5}
       >
-        Join the digital Tribe in the {' '}
+        Welcome to the {' '}
+
+
         <Text
           as="a"
           color="elvenTools.color2.base"
@@ -47,8 +48,9 @@ export const Hero = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          MultiversX
+          Vibe Tribe MultiversX
         </Text>{' '}
+
         ecosystem.
       </Text>
       <Text
@@ -57,9 +59,7 @@ export const Hero = () => {
         fontWeight="thin"
         textAlign={{ base: 'center', md: 'left' }}
       >
-        Vibe tribes are digital nomads that were born on MultiversX{' '}
-        Minting is just 0.1 EGLD. There will be a lot of features for this nomads like
-        a DAO, VIBE ESDT rewards and a multiverse game.
+        Where you can join the Vibe tribe of digital nomads. For just 0.1 EGLD, you can mint your own digital identity and gain access to exciting features like a DAO, VIBE ESDT rewards, and a multiverse game. Come be a part of a thriving community of like-minded individuals!
       </Text>
       <Box
         display="flex"

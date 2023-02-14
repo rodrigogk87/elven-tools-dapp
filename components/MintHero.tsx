@@ -208,7 +208,7 @@ export const MintHero = () => {
         fontWeight="thin"
         textAlign={{ base: 'center', md: 'left' }}
       >
-        To be able to mint you have to be logged in to be able to mint and have at least 0.1 EGLD.
+        To be able to mint you have to be logged in and have at least 0.1 EGLD.
       </Text>
       {!mintingPaused ? (
         <Box mt={6}>
