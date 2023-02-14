@@ -10,7 +10,7 @@ const Profile = () => {
     <ProtectedPageWrapper>
       <MainLayout>
         <HeaderMenu>
-          <HeaderMenuButtons enabled={['auth', 'about', 'mint']} />
+          <HeaderMenuButtons enabled={['auth', 'mint']} />
         </HeaderMenu>
         <ProfileUserData />
         <ProfileNFTsList />
