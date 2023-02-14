@@ -71,6 +71,16 @@ export const Hero = () => {
       >
         XOXNO Collection
       </Text>
+      <hr />
+      <Text
+        as="a"
+        color="elvenTools.color2.base"
+        href="https://www.frameit.gg/marketplace/VIBE-cc3566/items?sp=true"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Frameit Collection
+      </Text>
 
       <hr />
       <Text
