@@ -60,6 +60,8 @@ export const Hero = () => {
         Where you can join the Vibe tribe of digital nomads. For just 0.1 EGLD, you can mint your own digital identity and gain access to exciting features like a DAO, VIBE ESDT rewards, and a multiverse game. Come be a part of a thriving community of like-minded individuals!
       </Text>
 
+      <br></br>
+      <hr />
       <Text
         as="a"
         color="elvenTools.color2.base"
@@ -70,6 +72,17 @@ export const Hero = () => {
         Go to XOXNO Collection
       </Text>
 
+      <hr />
+      <Text
+        as="a"
+        color="elvenTools.color2.base"
+        href="https://peerme.io/peerings/vibedao"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Go to VIBE DAO
+      </Text>
+      <hr />
 
       <Box
         display="flex"
