@@ -39,8 +39,6 @@ export const Hero = () => {
         mb={5}
       >
         Welcome to the {' '}
-
-
         <Text
           as="a"
           color="elvenTools.color2.base"
@@ -61,6 +59,18 @@ export const Hero = () => {
       >
         Where you can join the Vibe tribe of digital nomads. For just 0.1 EGLD, you can mint your own digital identity and gain access to exciting features like a DAO, VIBE ESDT rewards, and a multiverse game. Come be a part of a thriving community of like-minded individuals!
       </Text>
+
+      <Text
+        as="a"
+        color="elvenTools.color2.base"
+        href="https://xoxno.com/collection/VIBE-cc3566"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Go to XOXNO Collection
+      </Text>
+
+
       <Box
         display="flex"
         justifyContent={{ base: 'center', md: 'flex-start' }}
